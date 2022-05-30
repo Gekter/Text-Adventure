@@ -1,0 +1,46 @@
+body {
+    position: relative;
+    display: flex; 
+    flex-direction: column; 
+    height: 100vh; 
+    margin: 0px; 
+    padding: 0px;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#phantom {
+    display: block; 
+    flex-grow: 1;
+    
+}
+#content {
+    background-color: black; 
+    color: white;
+    padding: 0px 6px 6px 6px;
+}
+button {
+    display: block;
+    background-color: #e7e7e7;
+    color: black;
+    border: 2px solid #555555; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 6px 10px;
+    margin: 0px 10px;
+} 
+button:hover {
+    background-color: #555555;
+    color: white;
+}
+p {
+    margin: 0;
+}
+.enter {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
